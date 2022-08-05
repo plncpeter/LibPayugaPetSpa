@@ -55,9 +55,11 @@
             // 
             // grbTipo
             // 
+            this.grbTipo.BackColor = System.Drawing.Color.Transparent;
             this.grbTipo.Controls.Add(this.btnCadastrar);
             this.grbTipo.Controls.Add(this.txtNomeCad);
             this.grbTipo.Controls.Add(this.lblTitulo1);
+            this.grbTipo.Font = new System.Drawing.Font("Humnst777 BlkCn BT", 11.75F);
             this.grbTipo.Location = new System.Drawing.Point(56, 244);
             this.grbTipo.Name = "grbTipo";
             this.grbTipo.Size = new System.Drawing.Size(289, 67);
@@ -67,7 +69,8 @@
             // 
             // btnCadastrar
             // 
-            this.btnCadastrar.Location = new System.Drawing.Point(205, 27);
+            this.btnCadastrar.Font = new System.Drawing.Font("Humnst777 Lt BT", 9.75F);
+            this.btnCadastrar.Location = new System.Drawing.Point(205, 30);
             this.btnCadastrar.Name = "btnCadastrar";
             this.btnCadastrar.Size = new System.Drawing.Size(75, 23);
             this.btnCadastrar.TabIndex = 3;
@@ -79,25 +82,28 @@
             // 
             this.txtNomeCad.Location = new System.Drawing.Point(63, 28);
             this.txtNomeCad.Name = "txtNomeCad";
-            this.txtNomeCad.Size = new System.Drawing.Size(134, 20);
+            this.txtNomeCad.Size = new System.Drawing.Size(134, 27);
             this.txtNomeCad.TabIndex = 2;
             // 
             // lblTitulo1
             // 
             this.lblTitulo1.AutoSize = true;
+            this.lblTitulo1.Font = new System.Drawing.Font("Humnst777 Lt BT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitulo1.Location = new System.Drawing.Point(19, 31);
             this.lblTitulo1.Name = "lblTitulo1";
-            this.lblTitulo1.Size = new System.Drawing.Size(31, 13);
+            this.lblTitulo1.Size = new System.Drawing.Size(43, 19);
             this.lblTitulo1.TabIndex = 1;
             this.lblTitulo1.Text = "Tipo:";
             // 
             // grbEditarApagar
             // 
+            this.grbEditarApagar.BackColor = System.Drawing.Color.Transparent;
             this.grbEditarApagar.Controls.Add(this.btnApagar);
             this.grbEditarApagar.Controls.Add(this.btnEditar);
             this.grbEditarApagar.Controls.Add(this.txtNomeEdit);
             this.grbEditarApagar.Controls.Add(this.lblTitulo2);
             this.grbEditarApagar.Enabled = false;
+            this.grbEditarApagar.Font = new System.Drawing.Font("Humnst777 BlkCn BT", 11.75F);
             this.grbEditarApagar.Location = new System.Drawing.Point(56, 326);
             this.grbEditarApagar.Name = "grbEditarApagar";
             this.grbEditarApagar.Size = new System.Drawing.Size(289, 67);
@@ -107,6 +113,7 @@
             // 
             // btnApagar
             // 
+            this.btnApagar.Font = new System.Drawing.Font("Humnst777 Lt BT", 9.75F);
             this.btnApagar.Location = new System.Drawing.Point(204, 38);
             this.btnApagar.Name = "btnApagar";
             this.btnApagar.Size = new System.Drawing.Size(75, 23);
@@ -117,6 +124,7 @@
             // 
             // btnEditar
             // 
+            this.btnEditar.Font = new System.Drawing.Font("Humnst777 Lt BT", 9.75F);
             this.btnEditar.Location = new System.Drawing.Point(204, 11);
             this.btnEditar.Name = "btnEditar";
             this.btnEditar.Size = new System.Drawing.Size(75, 23);
@@ -129,15 +137,16 @@
             // 
             this.txtNomeEdit.Location = new System.Drawing.Point(63, 28);
             this.txtNomeEdit.Name = "txtNomeEdit";
-            this.txtNomeEdit.Size = new System.Drawing.Size(134, 20);
+            this.txtNomeEdit.Size = new System.Drawing.Size(134, 27);
             this.txtNomeEdit.TabIndex = 3;
             // 
             // lblTitulo2
             // 
             this.lblTitulo2.AutoSize = true;
+            this.lblTitulo2.Font = new System.Drawing.Font("Humnst777 Lt BT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitulo2.Location = new System.Drawing.Point(19, 31);
             this.lblTitulo2.Name = "lblTitulo2";
-            this.lblTitulo2.Size = new System.Drawing.Size(31, 13);
+            this.lblTitulo2.Size = new System.Drawing.Size(43, 19);
             this.lblTitulo2.TabIndex = 0;
             this.lblTitulo2.Text = "Tipo:";
             // 
@@ -145,10 +154,13 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::LibPayugaPetSpa.Properties.Resources.oieee;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(399, 422);
             this.Controls.Add(this.grbEditarApagar);
             this.Controls.Add(this.grbTipo);
             this.Controls.Add(this.dgvTipo);
+            this.DoubleBuffered = true;
             this.Name = "MenuTipo";
             this.Text = "MenuTipo";
             this.Load += new System.EventHandler(this.MenuTipo_Load);

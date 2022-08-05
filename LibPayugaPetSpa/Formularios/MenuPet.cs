@@ -131,7 +131,7 @@ namespace LibPayugaPetSpa.Formularios
             // Chamar a Modificar:
             if (Banco.PetDAO.Modificar(p))
             {
-                MessageBox.Show("Usuário modificado com sucesso");
+                MessageBox.Show("Pet modificado com sucesso");
                 // Limpar os campos:
                 txtNomeEdit.Clear();
                 // Atualizar o dgv:

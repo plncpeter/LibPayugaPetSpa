@@ -33,7 +33,7 @@ namespace LibPayugaPetSpa.Formularios
                 }
                 else
                 {
-                    MessageBox.Show("N existe lanç p comanda");
+                    MessageBox.Show("Esta comanda já foi finalizada ou não existe!");
                 }
 
             }
@@ -52,7 +52,7 @@ namespace LibPayugaPetSpa.Formularios
         {
             if (Banco.OrdemDAO.Encerrar(int.Parse(txtPet.Text)))
             {
-                MessageBox.Show("Comanda encerrada com sucesso!");
+                MessageBox.Show("Comanda finalizada com sucesso!");
                 txtPet.Clear();
                 dgvComanda.DataSource = null;
                 chbPagamentos.Checked = false;

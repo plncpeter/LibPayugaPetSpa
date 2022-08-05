@@ -81,7 +81,7 @@ namespace LibPayugaPetSpa.Formularios
             // Chamar a Modificar:
             if (Banco.ServicosDAO.Modificar(s))
             {
-                MessageBox.Show("Usuário modificado com sucesso");
+                MessageBox.Show("Serviço modificado com sucesso");
                 // Limpar os campos:
                 txtNomeEdit.Clear();
                 txtPrecoEdit.Clear();

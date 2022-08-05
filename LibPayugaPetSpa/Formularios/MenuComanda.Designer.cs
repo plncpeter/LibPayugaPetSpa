@@ -48,11 +48,12 @@
             // 
             // grbLanc
             // 
+            this.grbLanc.BackColor = System.Drawing.Color.Transparent;
             this.grbLanc.Controls.Add(this.btnLancar);
             this.grbLanc.Controls.Add(this.txtServicoLanc);
             this.grbLanc.Controls.Add(this.lblTitulo3);
             this.grbLanc.Enabled = false;
-            this.grbLanc.Location = new System.Drawing.Point(22, 263);
+            this.grbLanc.Location = new System.Drawing.Point(15, 263);
             this.grbLanc.Name = "grbLanc";
             this.grbLanc.Size = new System.Drawing.Size(387, 135);
             this.grbLanc.TabIndex = 8;
@@ -60,14 +61,15 @@
             // 
             // btnLancar
             // 
+            this.btnLancar.BackColor = System.Drawing.Color.Transparent;
             this.btnLancar.Font = new System.Drawing.Font("Humnst777 BT", 9.75F);
-            this.btnLancar.ForeColor = System.Drawing.Color.SaddleBrown;
+            this.btnLancar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btnLancar.Location = new System.Drawing.Point(268, 86);
             this.btnLancar.Name = "btnLancar";
             this.btnLancar.Size = new System.Drawing.Size(86, 26);
             this.btnLancar.TabIndex = 4;
             this.btnLancar.Text = "Lançar";
-            this.btnLancar.UseVisualStyleBackColor = true;
+            this.btnLancar.UseVisualStyleBackColor = false;
             this.btnLancar.Click += new System.EventHandler(this.btnLancar_Click);
             // 
             // txtServicoLanc
@@ -82,7 +84,7 @@
             // 
             this.lblTitulo3.AutoSize = true;
             this.lblTitulo3.Font = new System.Drawing.Font("Humnst777 Lt BT", 17.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTitulo3.ForeColor = System.Drawing.Color.SaddleBrown;
+            this.lblTitulo3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTitulo3.Location = new System.Drawing.Point(25, 29);
             this.lblTitulo3.Name = "lblTitulo3";
             this.lblTitulo3.Size = new System.Drawing.Size(80, 27);
@@ -91,12 +93,13 @@
             // 
             // grbInformacoes
             // 
+            this.grbInformacoes.BackColor = System.Drawing.Color.Transparent;
             this.grbInformacoes.Controls.Add(this.btnContinuar);
             this.grbInformacoes.Controls.Add(this.txtServicoCont);
             this.grbInformacoes.Controls.Add(this.txtPetCont);
             this.grbInformacoes.Controls.Add(this.lblTitulo2);
             this.grbInformacoes.Controls.Add(this.lblTitulo1);
-            this.grbInformacoes.Location = new System.Drawing.Point(22, 55);
+            this.grbInformacoes.Location = new System.Drawing.Point(15, 62);
             this.grbInformacoes.Name = "grbInformacoes";
             this.grbInformacoes.Size = new System.Drawing.Size(387, 135);
             this.grbInformacoes.TabIndex = 7;
@@ -104,14 +107,15 @@
             // 
             // btnContinuar
             // 
+            this.btnContinuar.BackColor = System.Drawing.Color.Transparent;
             this.btnContinuar.Font = new System.Drawing.Font("Humnst777 BT", 9.75F);
-            this.btnContinuar.ForeColor = System.Drawing.Color.SaddleBrown;
+            this.btnContinuar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btnContinuar.Location = new System.Drawing.Point(268, 86);
             this.btnContinuar.Name = "btnContinuar";
             this.btnContinuar.Size = new System.Drawing.Size(86, 26);
             this.btnContinuar.TabIndex = 4;
             this.btnContinuar.Text = "Continuar";
-            this.btnContinuar.UseVisualStyleBackColor = true;
+            this.btnContinuar.UseVisualStyleBackColor = false;
             this.btnContinuar.Click += new System.EventHandler(this.btnContinuar_Click);
             // 
             // txtServicoCont
@@ -134,7 +138,7 @@
             // 
             this.lblTitulo2.AutoSize = true;
             this.lblTitulo2.Font = new System.Drawing.Font("Humnst777 Lt BT", 17.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTitulo2.ForeColor = System.Drawing.Color.SaddleBrown;
+            this.lblTitulo2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTitulo2.Location = new System.Drawing.Point(25, 82);
             this.lblTitulo2.Name = "lblTitulo2";
             this.lblTitulo2.Size = new System.Drawing.Size(80, 27);
@@ -145,7 +149,7 @@
             // 
             this.lblTitulo1.AutoSize = true;
             this.lblTitulo1.Font = new System.Drawing.Font("Humnst777 Lt BT", 17.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTitulo1.ForeColor = System.Drawing.Color.SaddleBrown;
+            this.lblTitulo1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTitulo1.Location = new System.Drawing.Point(25, 29);
             this.lblTitulo1.Name = "lblTitulo1";
             this.lblTitulo1.Size = new System.Drawing.Size(105, 27);
@@ -174,6 +178,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::LibPayugaPetSpa.Properties.Resources.preto;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.dgvPet);
             this.Controls.Add(this.grbLanc);

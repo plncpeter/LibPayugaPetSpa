@@ -202,6 +202,23 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="MineCraft.ico" />
+    <None Include="Resources\scroll.png" />
+    <None Include="Resources\nhe.png" />
+    <None Include="Resources\oieee.png" />
+    <None Include="Resources\Krazy Gurl.png" />
+    <None Include="Resources\marrommmm.jfif" />
+    <None Include="Resources\cashier.png" />
+    <None Include="Resources\Verde.jfif" />
+    <None Include="Resources\cash.png" />
+    <None Include="Resources\online-shopping.png" />
+    <None Include="Resources\preto.jfif" />
+    <None Include="Resources\dog %281%29.png" />
+    <None Include="Resources\amarelo.jfif" />
+    <None Include="Resources\woman.png" />
+    <None Include="Resources\Fundo Cdddd.jfif" />
+    <None Include="Resources\pet-insurance.png" />
+    <None Include="Resources\Minimalista.jfif" />
+    <None Include="Resources\minimalist aesthetic baby blue pastel phone wallpaper lockscreen _ Simple iphone wallpaper, Hipster wallpaper, Iphone wallpaper themes.jfif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
